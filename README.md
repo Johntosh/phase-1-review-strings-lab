@@ -54,7 +54,7 @@ declared `currentUser`:
 const currentUser = 'Grace Hopper';
 
 const welcomeMessage = 'Welcome to Flatbook, ';
-```
+
 
 Rerun the tests; you should see a second passing test.
 
@@ -73,7 +73,7 @@ When we rerun the tests, we still have two passing. But now the first and third
 tests are passing instead of the first and second! That doesn't seem quite
 right.
 
-It turns out that the tests want `welcomeMessage` to include _both_ `'Welcome to
+It turns out that the tests want welcomeMessage` to include _both_ `'Welcome to
 Flatbook, '` and the value stored in `currentUser`. Maybe we can include both of
 them in a single string?
 
@@ -139,7 +139,7 @@ JavaScript is with the `+` operator, like so:
 //=> "We can concatenate as many strings as our heart desires."
 ```
 
-Since our `currentUser` variable contains a string, we can concatenate it to the
+Since our `currentUser` variable contains a string, we can concatenate it to 
 end of `'Welcome to Flatbook, '` to dynamically create a new string based on
 whatever value `currentUser` contains at a given moment:
 
